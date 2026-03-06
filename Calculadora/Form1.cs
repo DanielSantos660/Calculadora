@@ -17,6 +17,57 @@ namespace Calculadora
             InitializeComponent();
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1, num2, res;
+            num1 = int.Parse(textBox1.Text);
+            num2 = int.Parse(textBox2.Text);
+            res = num1 + num2;
+
+            label5.Text = res.ToString();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int num1, num2, res;
+            num1 = int.Parse(textBox1.Text);
+            num2 = int.Parse(textBox2.Text);
+            res = num1 - num2;
+
+            label5.Text = res.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int num1, num2, res;
+            num1 = int.Parse(textBox1.Text);
+            num2 = int.Parse(textBox2.Text);
+            res = num1 * num2;
+
+            label5.Text = res.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int num1, num2, res;
+            num1 = int.Parse(textBox1.Text);
+            num2 = int.Parse(textBox2.Text);
+            res = num1 / num2;
+
+            label5.Text = res.ToString();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            label5.Text = "";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
