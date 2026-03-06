@@ -115,11 +115,13 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.ImageKey = "icon.png";
             this.button1.ImageList = this.imageList1;
@@ -128,16 +130,18 @@
             this.button1.Size = new System.Drawing.Size(107, 38);
             this.button1.TabIndex = 7;
             this.button1.Text = "Somar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.ImageKey = "icon (4).png";
             this.button2.ImageList = this.imageList1;
@@ -146,16 +150,17 @@
             this.button2.Size = new System.Drawing.Size(107, 38);
             this.button2.TabIndex = 9;
             this.button2.Text = "Subtrair";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.MediumPurple;
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.BlueViolet;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumOrchid;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.ForeColor = System.Drawing.Color.MediumPurple;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.ImageKey = "icon (5).png";
             this.button3.ImageList = this.imageList2;
@@ -164,16 +169,18 @@
             this.button3.Size = new System.Drawing.Size(107, 38);
             this.button3.TabIndex = 10;
             this.button3.Text = "Multiplicar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.ImageKey = "icon (3).png";
             this.button4.ImageList = this.imageList1;
@@ -182,7 +189,7 @@
             this.button4.Size = new System.Drawing.Size(107, 38);
             this.button4.TabIndex = 11;
             this.button4.Text = "Dividir";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label5
@@ -199,11 +206,13 @@
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Goldenrod;
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gold;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Khaki;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Goldenrod;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.ImageKey = "icon (7).png";
             this.button5.ImageList = this.imageList1;
@@ -212,17 +221,19 @@
             this.button5.Size = new System.Drawing.Size(98, 35);
             this.button5.TabIndex = 13;
             this.button5.Text = "Limpar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Red;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.ImageKey = "icon (8).png";
             this.button6.ImageList = this.imageList1;
@@ -231,7 +242,7 @@
             this.button6.Size = new System.Drawing.Size(98, 35);
             this.button6.TabIndex = 14;
             this.button6.Text = "Sair";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // imageList1
