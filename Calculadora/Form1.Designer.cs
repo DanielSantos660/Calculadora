@@ -37,14 +37,14 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.button4 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -90,7 +90,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(116, 31);
-            this.textBox1.TabIndex = 3;
+            this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
@@ -99,7 +99,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(116, 31);
-            this.textBox2.TabIndex = 4;
+            this.textBox2.TabIndex = 2;
             // 
             // label4
             // 
@@ -128,10 +128,24 @@
             this.button1.Location = new System.Drawing.Point(253, 325);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 38);
-            this.button1.TabIndex = 7;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Somar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "icon.png");
+            this.imageList1.Images.SetKeyName(1, "icon (1).png");
+            this.imageList1.Images.SetKeyName(2, "icon (2).png");
+            this.imageList1.Images.SetKeyName(3, "icon (3).png");
+            this.imageList1.Images.SetKeyName(4, "icon (4).png");
+            this.imageList1.Images.SetKeyName(5, "icon (5).png");
+            this.imageList1.Images.SetKeyName(6, "icon (6).png");
+            this.imageList1.Images.SetKeyName(7, "icon (7).png");
+            this.imageList1.Images.SetKeyName(8, "icon (8).png");
             // 
             // button2
             // 
@@ -148,7 +162,7 @@
             this.button2.Location = new System.Drawing.Point(383, 325);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 38);
-            this.button2.TabIndex = 9;
+            this.button2.TabIndex = 4;
             this.button2.Text = "Subtrair";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -167,10 +181,16 @@
             this.button3.Location = new System.Drawing.Point(513, 325);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(107, 38);
-            this.button3.TabIndex = 10;
+            this.button3.TabIndex = 5;
             this.button3.Text = "Multiplicar";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "icon (5).png");
             // 
             // button4
             // 
@@ -187,7 +207,7 @@
             this.button4.Location = new System.Drawing.Point(642, 325);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(107, 38);
-            this.button4.TabIndex = 11;
+            this.button4.TabIndex = 6;
             this.button4.Text = "Dividir";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -201,7 +221,7 @@
             this.label5.Location = new System.Drawing.Point(519, 427);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(112, 31);
-            this.label5.TabIndex = 12;
+            this.label5.TabIndex = 7;
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button5
@@ -219,7 +239,7 @@
             this.button5.Location = new System.Drawing.Point(387, 528);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(98, 35);
-            this.button5.TabIndex = 13;
+            this.button5.TabIndex = 8;
             this.button5.Text = "Limpar";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -240,30 +260,10 @@
             this.button6.Location = new System.Drawing.Point(517, 528);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(98, 35);
-            this.button6.TabIndex = 14;
+            this.button6.TabIndex = 9;
             this.button6.Text = "Sair";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "icon.png");
-            this.imageList1.Images.SetKeyName(1, "icon (1).png");
-            this.imageList1.Images.SetKeyName(2, "icon (2).png");
-            this.imageList1.Images.SetKeyName(3, "icon (3).png");
-            this.imageList1.Images.SetKeyName(4, "icon (4).png");
-            this.imageList1.Images.SetKeyName(5, "icon (5).png");
-            this.imageList1.Images.SetKeyName(6, "icon (6).png");
-            this.imageList1.Images.SetKeyName(7, "icon (7).png");
-            this.imageList1.Images.SetKeyName(8, "icon (8).png");
-            // 
-            // imageList2
-            // 
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "icon (5).png");
             // 
             // Form1
             // 
